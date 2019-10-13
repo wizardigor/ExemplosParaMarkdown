@@ -1,145 +1,153 @@
-##Tìtulos (<h1> a <h6>)
-# Título nível 1
-## Título nível 2
-### Título nível 3
-#### Título nível 4
-##### Título nível 5
-###### Título nível 6
+## TÃ¬tulos (h1 a h6)
+# TÃ­tulo nÃ­vel 1
+## TÃ­tulo nÃ­vel 2
+### TÃ­tulo nÃ­vel 3
+#### TÃ­tulo nÃ­vel 4
+##### TÃ­tulo nÃ­vel 5
+###### TÃ­tulo nÃ­vel 6
 
 ou
 
-Título de nível 1
+TÃ­tulo de nÃ­vel 1
 ==================
   
-Título de nível 2
+TÃ­tulo de nÃ­vel 2
 ------------------
 
-##Parágrafos e quebras de linha (<p> e <br />)
-Para gerar parágrafos, basta você escrever o texto em uma linha.
- Alguns quebram linha quando você dá enter. Mas a documentação do Markdown diz que, para quebras de linha, você precisa deixar dois espaços no final da linha:
-Primeira linha do parágrafo.··
-Segunda linha do parágrafo.
+## ParÃ¡grafos e quebras de linha (\<p\> e \<br\/\>)
+Para gerar parÃ¡grafos, basta vocÃª escrever o texto em uma linha.  
+Alguns quebram linha quando vocÃª dÃ¡ enter. Mas a documentaÃ§Ã£o do Markdown diz que, para quebras de linha, vocÃª precisa deixar dois espaÃ§os no final da linha:
+Primeira linha do parÃ¡grafo.Â·Â·
+Segunda linha do parÃ¡grafo.
 
-##Ênfase (<strong> e <em>)
-Para enfatizar uma palavras (<em>), usamos um * ou _:
-Javascript é _cool_!
+## ÃŠnfase (\<strong\> e \<em\>)
+Para enfatizar uma palavras (\<em\>), usamos um \* ou \_:  
+Javascript Ã© \_cool\_!
 
 ou:	
 
-Javascript é *cool*!
+Javascript Ã© \*cool\*!
 
-O mais utilizado para ênfase (<em>) é o underline
-Para dar forte ênfase em palavras (<strong>), você usa dois ** ou __:
-**Da2k** é a pronúncia para **Daciuk**: DA-TWO-K!
+O mais utilizado para Ãªnfase (\<em\>) Ã© o \_ underline
+Para dar forte Ãªnfase em palavras (\<strong\>), vocÃª usa dois \*\* ou \_\_:
+\*\*Da2k\*\* Ã© a pronÃºncia para \*\*Daciuk\*\*: DA-TWO-K!
 
 ou
 
-__Da2k__ é a pronúncia para __Daciuk__: DA-TWO-K!
+\_\_Da2k\_\_ Ã© a pronÃºncia para \_\_Daciuk\_\_: DA-TWO-K!
 
-O mais utilizado para forte ênfase (<strong>) são dois asteriscos **.
+O mais utilizado para forte Ãªnfase (\<strong\>) sÃ£o dois asteriscos \*\*.
 
-##Links (<a>)
-Para gerar links, você usa [](). Dentro dos colchetes você coloca o texto do link, e dentro dos parênteses, você coloca a URL:
-[Blog do Da2k](https://blog.da2k.com.br)
+## Links (\<a\>)
+Para gerar links, vocÃª usa \[\]\(\). Dentro dos colchetes vocÃª coloca o texto do link, e dentro dos parÃªnteses, vocÃª coloca a URL:
+\[Blog do Da2k\]\(https://blog.da2k.com.br\)
 
-Passando um texto após a URL, separando o link do texto por um espaço em branco, esse texto será usado como title:
-[Blog do Da2k](https://blog.da2k.com.br "Clique e acesse agora!")
+Passando um texto apÃ³s a URL, separando o link do texto por um espaÃ§o em branco, esse texto serÃ¡ usado como title:
+\[Blog do Da2k\]\(https://blog.da2k.com.br \"Clique e acesse agora!\"\)
 
-Se o texto do seu link é o próprio link, você pode envolvê-lo entre < e >, que o link será gerado automaticamente:
-<https://www.google.com.br>
+Se o texto do seu link Ã© o prÃ³prio link, vocÃª pode envolvÃª-lo entre \< e \>, que o link serÃ¡ gerado automaticamente:
+\<https://www.google.com.br\>
 
-E isso funciona também para e-mails:
-<meu@email.com>
+E isso funciona tambÃ©m para e-mails:
+\<meu@email.com\>
 
-##Blocos de citação (<blockquote>)
+## Blocos de citaÃ§Ã£o (\<blockquote\>)
 
-Para criar blocos de citação, você usa o sinal de >:
-> Esse é um bloco de citação.
-> Ele pode ter várias linhas por parágrafo.
->
-> Inclusive, dando um espaço, você tem um novo parágrafo.
+Para criar blocos de citaÃ§Ã£o, vocÃª usa o sinal de \>:  
+>\> Esse Ã© um bloco de citaÃ§Ã£o.  
+>\> Ele pode ter vÃ¡rias linhas por parÃ¡grafo.  
+>\>   
+>\> Inclusive, dando um espaÃ§o, vocÃª tem um novo parÃ¡grafo.
 
-Listas (<ul> e <ol>)
+Listas (\<ul\> e \<ol\>)
 
-Para listas não ordenadas (<ul>), você pode usar *, + ou -. Veja:
-* Item 1
-* Item 2
-* Item 3
+Para listas nÃ£o ordenadas (\<ul\>), vocÃª pode usar \*, \+ ou \-. Veja:
+* \* Item 1
+* \* Item 2
+* \* Item 3
   
-+ Item 1
-+ Item 2
-+ Item 3
++ \+ Item 1
++ \+ Item 2
++ \+ Item 3
   
-- Item 1
-- Item 2
-- Item 3
+- \- Item 1
+- \- Item 2
+- \- Item 3
 
-E para listas ordenadas, você usa o número, seguido de ponto:
+E para listas ordenadas, vocÃª usa o nÃºmero, seguido de ponto:
 1. Item 1
 2. Item 2
 3. Item 3
 
-Alguns parsers renderizam automaticamente os próximos números, após o 1. Você só precisa usar * para os itens do 2 em diante:
+Alguns parsers renderizam automaticamente os prÃ³ximos nÃºmeros, apÃ³s o 1. VocÃª sÃ³ precisa usar \* para os itens do 2 em diante:
 1. Item 1
 * Item 2
 * Item 3
 
-##Imagens (<img />)
-Geração de imagens é bem parecido com a geração de links: você só precisa adicionar uma ! no início. E o texto que você coloca entre os colchetes, é usado como alt na imagem:
+## Imagens (\<img \/\>)
+GeraÃ§Ã£o de imagens Ã© bem parecido com a geraÃ§Ã£o de links: vocÃª sÃ³ precisa adicionar uma ! no inÃ­cio. E o texto que vocÃª coloca entre os colchetes, Ã© usado como alt na imagem:
+!\[Banana\]\(http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)  
 ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif)
 
-O title também funciona como no link:
-![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif "Olha a banana dançando!")
+O title tambÃ©m funciona como no link:  
+!\[Banana\]\(http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif "Olha a banana danÃ§ando!")  
+![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif "Olha a banana danÃ§ando!")
 
-##Tabelas (<table>)
-Já falei sobre tabelas em um post anterior. Nesse post eu falo também sobre as task lists, mas elas são específicas do Github, não funcionam com qualquer parser ;)
-Código inline e bloco (<code> e <pre>)
-Voc? ainda pode adicionar trechos de código via Markdown. Para adicionar código a nível inline, você usa \`:
-O `<blockquote>` é uma tag HTML.
+## Tabelas (\<table\>)
+JÃ¡ falei sobre tabelas em um post anterior. Nesse post eu falo tambÃ©m sobre as task lists, mas elas sÃ£o especÃ­ficas do Github, nÃ£o funcionam com qualquer parser ;)
+CÃ³digo inline e bloco (\<code\> e \<pre\>)
+Voc? ainda pode adicionar trechos de cÃ³digo via Markdown. Para adicionar cÃ³digo a nÃ­vel inline, vocÃª usa \\\`:  
+O \`\<blockquote\>\` Ã© uma tag HTML.
 
-E para gerar blocos de código, você simplesmente indenta o código 4 espaços (ou 1 tab) à frente do paràgrafo:
-Essa é a função sayHello():
+E para gerar blocos de cÃ³digo, vocÃª simplesmente indenta o cÃ³digo 4 espaÃ§os (ou 1 tab) Ã  frente do parÃ grafo:  
+Essa Ã© a funÃ§Ã£o sayHello():
+
     function sayHello() {
       return 'hi!';
     }
 
-Isso é como está na documentação. Mas a maior parte dos parses que eu conheço não funcionam dessa forma. Eles geram blocos de código usando três crases no início da primeira e última linha, para marcar o início e o fim do bloco:
-...
-function sayHello(){
-  return 'hi';
-}
-...
+Isso Ã© como estÃ¡ na documentaÃ§Ã£o. Mas a maior parte dos parses que eu conheÃ§o nÃ£o funcionam dessa forma. Eles geram blocos de cÃ³digo usando trÃªs crases no inÃ­cio da primeira e Ãºltima linha, para marcar o inÃ­cio e o fim do bloco:
 
-O Github inclusive recomenda que se use as 3 crases, pois é mais fácil de visualizar e dar manutenção no código.
-No Github, você ainda consegue definir qual a linguagem que está sendo utilizada, para que seja feito code highlight no seu código. Só passe a linguagem após as 3 crases, dessa forma:
-...
-   js
+```
+
 function sayHello(){
   return 'hi';
 }
 
-##Backslash scapes
-Para escapar caracteres que são parseados pelo Markdown, você pode usar a barra invertida \ (backslash), seguida do caractere, para imprimí-lo literalmente. O escape funciona para os caracteres listados abaixo:
-\   backslash (barra invertida)
-`   backtick (crase)
-*   asterisk (asterisco)
-_   underscore
-{}  curly braces (chaves)
-[]  square brackets (colchetes)
-()  parentheses (parênteses)
-#   hash mark (sustenido / hash / jogo da velha)
-+   plus sign (sinal de "mais" ou somar)
--   minus sign (hyphen) (sinal de menos ou hífen)
-.   dot (ponto)
-!   exclamation mark (ponto de exclamação)
+```
 
-Além de tudo isso, é importante saber também, que é possível usar HTML junto com Markdown! Isso mesmo! Se você precisar adicionar uma classe em uma imagem para alinhar, ou colocar uma cor específica em alguma palavra, você pode usar tags HTML normalmente.
+O Github inclusive recomenda que se use as 3 crases, pois Ã© mais fÃ¡cil de visualizar e dar manutenÃ§Ã£o no cÃ³digo.
+No Github, vocÃª ainda consegue definir qual a linguagem que estÃ¡ sendo utilizada, para que seja feito code highlight no seu cÃ³digo. SÃ³ passe a linguagem apÃ³s as 3 crases, dessa forma:
 
-Para saber mais sobre Markdown, recomendo a leitura da documentação oficial:
-http://daringfireball.net/projects/markdown/
+```js
+function sayHello(){
+  return 'hi';
+}
 
-E alguns links de como o Github usa Markdown:
-https://help.github.com/articles/markdown-basics/
-https://help.github.com/articles/github-flavored-markdown/
-https://guides.github.com/features/mastering-markdown/
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+```
+
+## Backslash scapes
+Para escapar caracteres que sÃ£o parseados pelo Markdown, vocÃª pode usar a barra invertida \\ (backslash), seguida do caractere, para imprimÃ­-lo literalmente. O escape funciona para os caracteres listados abaixo:  
+\\   backslash (barra invertida)  
+\`   backtick (crase)  
+\*   asterisk (asterisco)  
+\_   underscore  
+\{\}  curly braces (chaves)  
+\[\]  square brackets (colchetes)  
+\(\)  parentheses (parÃªnteses)  
+\#   hash mark (sustenido \/ hash \/ jogo da velha)  
+\+   plus sign (sinal de "mais" ou somar)  
+\-   minus sign (hyphen) (sinal de menos ou hÃ­fen)  
+\.   dot (ponto)  
+\!   exclamation mark (ponto de exclamaÃ§Ã£o)  
+
+AlÃ©m de tudo isso, Ã© importante saber tambÃ©m, que Ã© possÃ­vel usar HTML junto com Markdown! Isso mesmo! Se vocÃª precisar adicionar uma classe em uma imagem para alinhar, ou colocar uma cor especÃ­fica em alguma palavra, vocÃª pode usar tags HTML normalmente.
+
+Para saber mais sobre Markdown, recomendo a leitura da documentaÃ§Ã£o oficial:  
+http://daringfireball.net/projects/markdown/  
+
+E alguns links de como o Github usa Markdown:  
+https://help.github.com/articles/markdown-basics/  
+https://help.github.com/articles/github-flavored-markdown/  
+https://guides.github.com/features/mastering-markdown/  
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
